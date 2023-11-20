@@ -1,0 +1,51 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* || BLOCKS */
+/* aka component */
+
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem 1rem 0.5rem;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+/* || ELEMENTS */
+/* No standalone meaning - semantically tied to the block */
+
+/* does not represent structure, not header__nav__btn */
+
+.header__btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+/* || MODIDIERS */
+/* incremental style chhanges */
+
+/* Bloks with modifiers */
+.header__btn--secondary {
+    background-color: yellow;
+}
+
+
+.header__btn--lean {
+    transform: skewX(-10deg);
+}
+
+.header__btn--border-lg {
+    border: 5px solid whitesmoke;
+}

@@ -1,0 +1,103 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image: linear-gradient( left, steelblue,white);
+}
+
+.container {
+    background-color: rgb(251, 210, 156);  
+    background-image: url(../img/lol.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+   background-color: rgb(251, 210, 156);  
+   background-image: url(../img/lol.jpg); 
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover ;
+}
+
+.h1 {
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+    /* background-color: hsla(0, 0%, 0%, 0.403);
+    padding: 0.25rem;
+    /* border-radius: 10px;  */
+/* }
+
+.profile-pic-figure {
+  width: 35%;
+} 
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+}     */ 
+
+
+body{
+    min-height: 100vh;
+    background-color: aliceblue;
+    /* background-image: url(), linear-gradient( steelblue, white);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+   /* background-size: 20% auto; */
+
+   /* short - hand */
+   background: repeat-y right center url(), no-repeat linear-gradient(to left, steelblue, white);
+   background-size: 20%, auto;
+}
+
+.clip {
+    font-weight: 800px;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url(../img/door.jpg);
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: transparent;
+}
